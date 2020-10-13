@@ -1,0 +1,287 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: #dbbca4;
+  margin: 2.5vw auto;
+  position: relative;
+  z-index: -2
+}
+
+.table {
+    width: 77%;
+    height: 52.6%;
+    background-color: #5b5c34;
+    position: absolute;
+    top: 47.41%;
+    bottom: 0;
+    z-index: -1; 
+}
+
+.table-2 {
+    width: 24%;
+    height: 19%;
+    background-color: #5b5c34;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.table-3 {
+    position: absolute;
+    left: 77%;
+    bottom: 18.74%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 19.5vw 0 0 22vw;
+    border-color: transparent transparent transparent #5b5c34;
+    z-index: -1;
+  }
+
+  .chair {
+  background-image: linear-gradient(to right, #b8a594 , #e5ddd6);
+  width: 22.36%;
+  height: 11.27%;
+  position: absolute;
+  right: 35%;
+  top: 36.5%;
+  z-index: -1;
+}
+
+.chair2 {
+  background-image: linear-gradient(to right, #b8a594 , #e5ddd6);
+  width: 22.36%;
+  height: 11.27%;
+  position: absolute;
+  left: 4.76%;
+  top: 36.1%;
+  z-index: -1;
+}
+
+.pumpkin {
+    background-image: linear-gradient(#d46f2f, #d46f2f, #9e523e);
+    position: absolute;
+    width: 24%;
+    height: 33%;
+    transform: rotate(6.69deg);
+    border-radius: 50%;
+    position: absolute;
+    right: 22%;
+    bottom: 19.6%;
+}
+
+.pumpkin-2 {
+    background-color: #d46f2f;
+    width: 5.7%;
+    height: 8.87%;
+    border-radius: 50%;
+    position: absolute;
+    right: 31.14%;
+    bottom: 50%;
+  
+}
+
+.pumpkin-3 {
+    background-color: #d46f2f;
+    width: 3%;
+    height: 8.8%;
+    transform: rotate(-25.81deg);
+    position: absolute;
+    right: 30%;
+    bottom: 46.3%; 
+}
+
+.pumpkin-4 {
+  background-color: #d46f2f;
+  width: 3%;
+  height: 8.8%;
+  transform: rotate(34.06deg);
+  position: absolute;
+  right: 35.4%;
+  bottom: 46.3%;
+}
+
+.pstem {
+  background-color: #6b3b1a;
+  width: 1.9%;
+  height: 3.85%;
+  border-radius: 20%;
+  transform: rotate(13.27deg);
+  position: absolute;
+  right: 32.69%;
+  bottom: 57%;
+}
+
+.squash {
+  background-image: linear-gradient(#eddcb7, #bfa067);
+  width: 21.21%;
+  height: 26.71%;
+  border-radius: 50%;
+  transform: rotate(-12.45deg);
+  position: absolute;
+  left: 24.91%;
+  bottom: 33.59%;
+
+}
+
+.sstem {
+  background-color: #5b443e;
+  width: 1.67%;
+  height: 4.66%;
+  border-radius: 50%;
+  transform: rotate(-8.3deg);
+  position: absolute;
+  left: 25.88%;
+  bottom: 42.42%;
+}
+
+.stripes {
+  background-color: #dbb067;
+  width: 16.37%;
+  height: 24.28%;
+  border-radius: 50%;
+  transform: rotate(-17.27deg);
+  position: absolute;
+  bottom: 12.47%;
+  right: 46.71%;
+}
+
+.stripes-2 {
+  background-color: #dbb067;
+  width: 15.84%;
+  height: 18.64%;
+  border-radius: 40%;
+  transform: rotate(-29.18deg);
+  position: absolute;
+  bottom: 8.81%;
+  right: 57.67%;
+}
+
+.stripes-3 {
+  background-color: #dbb067;
+  width: 14%;
+  height: 3.93%;
+  transform: rotate(-14deg);
+  position: absolute;
+  bottom: 9.8%;
+  right: 54%;
+}
+
+.stripes-4 {
+  background-color: #dbb067;
+  width: 13%;
+  height: 3.60%;
+  transform: rotate(-29deg);
+  position: absolute;
+  bottom: 25.7%;
+  right: 58%;
+}
+
+.stem-1 {
+  background-color: #5b443e;
+  width: 0.78%;
+  height: 2.17%;
+  border-radius: 50%;
+  transform: rotate(-19.76deg);
+  position: absolute;
+  bottom: 11.9%;
+  left: 27.73%;
+  z-index: 1;
+}
+
+.stem-2{
+  background-color: #5b443e;
+  width: 1.41%;
+  height: 2.88%;
+  transform: rotate(-15.7deg);
+  position: absolute;
+  bottom: 27.4%;
+  left: 51.96%;
+  z-index: -1;
+}
+
+.candle {
+  background-color: #fffdf4;
+  width: 3.67%;
+  height: 20.40%;
+  position: absolute;
+  left: 11.82%;
+  bottom: 61.81%;
+}
+
+.wick {
+  background-color: black;
+  width: 0.37%;
+  height: 2.61%;
+  position: absolute;
+  left: 13.45%;
+  bottom: 82.06%;
+}
+
+.candlestick {
+  background-color: #f5b540;
+  width: 5.38%;
+  height: 17.58%;
+  border-radius: 20%;
+  position: absolute;
+  left: 10.9%;
+  bottom: 44.71%;
+}
+
+.stand {
+  background-color: #f5b540;
+  width: 1.37%;
+  height: 35%;
+  position: absolute;
+  bottom: 9.73%;
+  left: 13%;
+  z-index: 2;
+}
+
+.standside {
+  background-color: #f5b540;
+  transform: rotate(-90deg);
+  width: 1.35%;
+  height: 15.89%;
+  border-radius: 10%;
+  position: absolute;
+  left: 18%;
+  bottom: 2.9%;
+  z-index: 2
+}
+
+.standbottom {
+  background-color: #f5b540;
+  width: 20%;
+  height: 15.66%;
+  border-radius: 50%;
+  position: absolute;
+  left: 4.23%;
+  bottom: 2.69%;
+}
+
+.inside {
+  background-color: #5b5c34;
+  width: 17.31%;
+  height: 12.26%;
+  border-radius: 50%;
+  position: absolute;
+  left: 5.5%;
+  bottom: 4.69%;
+  z-index: 1;
+}
+/* Your CSS goes here */
